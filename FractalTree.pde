@@ -9,10 +9,7 @@ public void setup()
 public void draw() 
 {   
 	background(0);  
-	int rColor = (int) (Math.random() * 255);
-	int gColor = (int) (Math.random() * 255);
-	int bColor = (int) (Math.random() * 255);
-	stroke(rColor,gColor,bColor);
+	stroke(0,255,0);
  
 	line(320,480,320,380);   
 
